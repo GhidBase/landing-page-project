@@ -34,14 +34,47 @@ body > div {
     font-size: 18px;
     color: #E5E7EB;
     margin-left: 16px;
-
 }
 
 .section-one {
-    height: 100px;
-    background-color: #8ba9d3;
+    background-color: #1F2937;
     display: flex;
+    padding-top: 84px;
+    padding-bottom: 84px;
+    color: #F9FAF8;
+    align-items: center;
+    gap: 24px;
 }
+
+.section-one-details {
+    flex: 1;
+}
+
+.section-one-image {
+    background-color: grey;
+    align-self: stretch;
+    flex: 1;
+}
+
+.section-one-details-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+.section-one-details-details {
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.section-one-button {
+    background-color: #3882F6;
+    padding: 8px;
+    width: 100px;
+    justify-self: flex-start;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
 
 .boxes-container {
     display: flex;
