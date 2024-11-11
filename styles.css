@@ -120,3 +120,23 @@ body > div {
     border: 4px solid #3882F6;
     border-radius: 12px;
 }
+
+.section-three {
+    height: 400px;
+    background-color: #E5E7EB;
+    align-content: center;
+}
+
+.quote {
+    color: #434f5e;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-name {
+    text-align: right;
+    font-weight: 600;
+    font-size: 24px;
+    color: #303a46;
+}
