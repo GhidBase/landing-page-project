@@ -1,13 +1,40 @@
+* {
+    font-family: 'Roboto';
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
 }
 
+body > div {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
 .header {
-    height: 100px;
-    background-color: #8ba9d3;
+    background-color: #1F2937;
     display: flex;
+    color: #F9FAF8;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 16px;
+
 }
 
 .section-one {
