@@ -144,6 +144,7 @@ body > div {
 
 .section-four {
     margin-top: 80px;
+    margin-bottom: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,6 +158,7 @@ body > div {
     padding: 40px 15% 40px 15%;
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 8px;
 }
 
 .sign-up-container-details{
@@ -185,4 +187,12 @@ body > div {
 .sign-up-container-details-text {
     font-size: 18px;
     color: #e5e7ebe0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-items: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
